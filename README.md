@@ -130,7 +130,7 @@ You can deploy this project using:
 
 ## 👥 Author <a name="authors"></a>
 
-👤 **Abdelmejid Oumer Ali**
+👤 **Ojesanmi Elizabet Oyin**
 
 - GitHub: [@Lizdev-05](https://github.com/Lizdev-05)
 
