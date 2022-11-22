@@ -1,6 +1,6 @@
 import { createAsyncThunk } from '@reduxjs/toolkit';
 
-const API_URL = 'http://localhost:3000/api/v1/greetings';
+const API_URL = '/api/v1/greetings';
 
 const FETCH = 'hello-rails-react/greetings/FETCH';
 
@@ -20,5 +20,6 @@ export default (state = initialState, action) => {
 export const fetchGreeting = createAsyncThunk(FETCH, async () => {
   const response = await fetch(API_URL);
   const data = await response.json();
+  console.log(data)
   return data.text;
 });

@@ -4,11 +4,8 @@ import Greeting from "./pages/Greeting";
 
 const App = () => {
   return <>
-    <h1>Hello World!</h1>
-    <h2>Treat me well </h2>
-    <Link to="/greeting">Go to the greeting page</Link>
     <Routes>
-      <Route path="/greeting" element={<Greeting/>}/>
+      <Route path="/" element={<Greeting/>}/>
     </Routes>
   </>
 }
